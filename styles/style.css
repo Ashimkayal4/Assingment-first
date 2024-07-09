@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+}
+.header{
+    background-image: url(/assets/Hero-bg.png);
+    height: 500px;
+    width: 1000px;
+    background-repeat: no-repeat;
+}
+.picture{
+text-align: center;
+}
