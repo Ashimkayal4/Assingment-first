@@ -45,15 +45,14 @@ body{
     margin: 80px 97px;
     padding: 10px 20px;
 } 
-.section-1{
-    width: 850px;
-    height: 113px;
+.first-sec{
     text-align: center;
-    font-size: larger;
     justify-content: center;
+    align-items: center;
 }
-
-/* section 01 */
+.first-sec h1{
+    font-size: 40px;
+}
 
 .btn2{
     width: 100px;
@@ -90,5 +89,28 @@ p{
 .btn4{
     width: 100px;
         height: 25px;
+}
+
+/* main-two */
+.main-two{
+    height: 800px;
+    width: 1100px;
+    border: 2px solid black;
+    margin: 80px 97px;
+}
+.sec-01{
+    padding: 20px 50px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    h
+}
+.sec-01 h1{
+    font-size: 35px;
+}
+.sec-02{
+   align-items: center;
+   justify-content: center;
+   text-align: center;
 }
 
