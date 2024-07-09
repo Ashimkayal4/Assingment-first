@@ -40,10 +40,10 @@ body{
 /* Main part  */
 /* section 02 */
 .main-one{
-    height: 1393px;
-    width: 1140px; 
+    height: 1000px;
+    width: 1200px; 
     margin: 80px 97px;
-    border: 2px solid black;
+    padding: 10px 20px;
 } 
 .section-1{
     width: 850px;
@@ -59,10 +59,7 @@ body{
     width: 100px;
     height: 25px;
 }
-.image{
-    text-align: right;
-    padding-right: 10px;
-}
+
 .section-2{
     display: flex;
     padding:40px;
@@ -70,3 +67,28 @@ body{
 }
 
 /* section 03 */
+.section-3{
+    display: flex;
+    padding: 15px 10px;
+    justify-content: space-between;
+}
+
+.btn3{
+    width: 100px;
+        height: 25px;
+
+}
+/* section-4 */
+.section-4{
+    display: flex;
+    padding: 15px 10px;
+    justify-content: space-between;
+}
+p{
+    font-size: large;
+}
+.btn4{
+    width: 100px;
+        height: 25px;
+}
+
