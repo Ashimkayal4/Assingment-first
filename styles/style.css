@@ -6,7 +6,7 @@ body{
 }
 .header {   
     background-image: url(/assets/Hero-bg.png);
-    height: 652px;
+    height: 650px;
     width: 1400px;
     justify-content: center;
     
@@ -41,9 +41,10 @@ body{
 /* section 02 */
 .main-one{
     height: 1000px;
-    width: 1200px; 
+    width: 1100px; 
     margin: 80px 97px;
     padding: 10px 20px;
+    /* background-color: #c2d5ff; */
 } 
 .first-sec{
     text-align: center;
@@ -95,7 +96,6 @@ p{
 .main-two{
     height: 800px;
     width: 1100px;
-    border: 2px solid black;
     margin: 80px 97px;
 }
 .sec-01{
