@@ -3,10 +3,14 @@
 }
 .header{
     background-image: url(/assets/Hero-bg.png);
-    height: 500px;
-    width: 1000px;
-    background-repeat: no-repeat;
+    height: 652px;
+    width: 1400px;
 }
 .picture{
-text-align: center;
+    height: 240px;
+    width: 240px;
+    
+}
+.heading{
+    font-size: larger;
 }
