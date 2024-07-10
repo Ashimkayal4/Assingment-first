@@ -157,7 +157,7 @@ p{
     height: 250px;
     width: 1140px;
     margin: 80px 97px;
-    background-image: url(/assets/handshake.jpg);
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.1)), url(/assets/handshake.jpg);
     background-size: cover;
     background-position: center;
 }
