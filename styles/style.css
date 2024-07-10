@@ -38,20 +38,18 @@ body{
     border-radius: 15px;
 }
 /* Main part  */
-/* section 02 */
 .main-one{
     height: 1000px;
     width: 1100px; 
     margin: 80px 97px;
     padding: 10px 20px;
-    /* background-color: #c2d5ff; */
 } 
-.first-sec{
+.section-1{
     text-align: center;
     justify-content: center;
     align-items: center;
 }
-.first-sec h1{
+.section-1 h1{
     font-size: 40px;
 }
 
@@ -117,11 +115,40 @@ p{
 .main-three{
     height: 113px;
     width: 940px;
-    padding-left: 20px;
+    padding-left: 10px;
     margin:80px 97px;
     text-align: center;
     justify-content: center;
     align-items: center;
 }
-
-
+/* main-four */
+.main-four{
+    height: 500px;
+    width: 1100px;
+    margin: 98px 97px;
+    display: flex;
+}
+.main-four-sec-1{
+    width: 366px;
+    height: 350px;
+    padding: 40px 40px;
+}
+.logo1{
+    width: 56px;
+    height: 56px;
+}
+.main-four-sec-2{
+    width: 366px;
+    height: 350px;
+    padding: 40px 40px;
+}
+.main-four-sec-3{
+    width: 366px;
+    height: 350px;
+    padding: 40px 40px;
+}
+.btn-main4{
+    border: none;
+    font-size: large;
+    text-decoration: underline;
+}
