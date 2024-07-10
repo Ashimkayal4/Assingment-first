@@ -154,7 +154,7 @@ p{
 }
 /* main-five */
 .main-five{
-    height: 300px;
+    height: 250px;
     width: 1140px;
     margin: 80px 97px;
     background-image: url(/assets/handshake.jpg);
@@ -182,4 +182,12 @@ p{
     width: 100px;
     font-size: 20px;
     padding-left: 0px 20px;
+}
+/* main-six */
+.main-six{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 1120px;
+    margin: 80px 97px;
 }
