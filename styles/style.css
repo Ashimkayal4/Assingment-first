@@ -113,4 +113,15 @@ p{
    justify-content: center;
    text-align: center;
 }
+/* main-three */
+.main-three{
+    height: 113px;
+    width: 940px;
+    padding-left: 20px;
+    margin:80px 97px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
 
