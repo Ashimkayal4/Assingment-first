@@ -1,3 +1,4 @@
+
 body{
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
@@ -101,7 +102,6 @@ p{
     justify-content: center;
     text-align: center;
     align-items: center;
-    h
 }
 .sec-01 h1{
     font-size: 35px;
@@ -121,9 +121,12 @@ p{
     justify-content: center;
     align-items: center;
 }
+.main-three h1{
+    font-size:40px;
+}
 /* main-four */
 .main-four{
-    height: 500px;
+    height: 250px;
     width: 1100px;
     margin: 98px 97px;
     display: flex;
@@ -131,7 +134,6 @@ p{
 .main-four-sec-1{
     width: 366px;
     height: 350px;
-    padding: 40px 40px;
 }
 .logo1{
     width: 56px;
@@ -140,15 +142,44 @@ p{
 .main-four-sec-2{
     width: 366px;
     height: 350px;
-    padding: 40px 40px;
 }
 .main-four-sec-3{
     width: 366px;
-    height: 350px;
-    padding: 40px 40px;
+    height: 310px;
 }
 .btn-main4{
     border: none;
     font-size: large;
     text-decoration: underline;
+}
+/* main-five */
+.main-five{
+    height: 300px;
+    width: 1140px;
+    margin: 80px 97px;
+    background-image: url(/assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.main-five-sec-1{
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+.main-five-sec-2 input{
+    height: 40px;
+    width: 450px;
+   margin: 57px 0px;
+   padding-left: 10px;
+   font-size: 15px;
+   margin-left: 220px;
+   margin-top: 15px;
+}
+.btn-submit{
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    padding-left: 0px 20px;
 }
