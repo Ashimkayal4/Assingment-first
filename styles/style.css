@@ -8,7 +8,7 @@ body{
         
 }
 .header {   
-    background-image: url(../assets/Hero-bg.png);
+    background-image: url("../assets/Hero-bg.png");
     height: 650px;
     width: 1400px;
 }
@@ -118,7 +118,7 @@ background-color: #fff0f5;
 /* main-four */
 .main-four{
     background: linear-gradient(rgba(0, 0, 0, 0.7),
-            rgba(0, 0, 0, 0.1)),url(../assets/handshake.jpg);
+            rgba(0, 0, 0, 0.1)),url("../assets/handshake.jpg");
     height: 313px;
     width: 1140px;
     background-repeat: no-repeat;
