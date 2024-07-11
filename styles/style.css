@@ -7,11 +7,12 @@ body{
     padding: 0;
         
 }
-.header {   
-    background-image: url("../assets/Hero-bg.png");
+header{
     height: 650px;
     width: 1400px;
+    background-image: url("../assets/Hero-bg.png");
 }
+
 .text{
     text-align: center;
 }
@@ -92,6 +93,7 @@ body{
 .main-three-p2{
 display: flex;
 font-size: 20px;
+/* margin: 80px 97px; */
 }
 .main-three-sub{
 height: 300px;
