@@ -3,17 +3,18 @@ body{
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
     font-style: normal;
+    margin: 0;
+    padding: 0;
         
 }
 .header {   
     background-image: url(../assets/Hero-bg.png);
     height: 650px;
     width: 1400px;
-    justify-content: center;
-    
-
 }
-
+.text{
+    text-align: center;
+}
 .picture{
     height: 240px;
     width: 240px;
@@ -21,14 +22,7 @@ body{
     margin: 0px 50px;
     
 }
-.heading h4{
-    font-size:50px;
-    text-align: center;
-    margin: 0px 20px;
-}
-.heading p{
-    text-align: center;
-}
+
 .button1{
     color:whitesmoke ;
     background-color: #0D1321;
@@ -37,159 +31,131 @@ body{
     font-size: 20px;
     margin: 15px 600px;
     border-radius: 15px;
-}
-/* Main part  */
-.main-one{
-    height: 1000px;
-    width: 1100px; 
-    margin: 80px 97px;
-    padding: 10px 20px;
-} 
-.section-1{
-    text-align: center;
-    justify-content: center;
     align-items: center;
 }
-.section-1 h1{
-    font-size: 40px;
-}
 
-.btn2{
-    width: 100px;
-    height: 25px;
+/* main part start */
+.main-one{
+    height: 1200px;
+    width: 1140px;
+    margin: 80px 97px;
 }
-
-.section-2{
+.main-one p{
+    font-size: 15px;
+}
+.main-one-p1{
+    text-align: center;
+    font-size: 20px;
+}
+.main-one-p2{
     display: flex;
-    padding:40px;
+    text-align: center;
+    padding: 48px;
     justify-content: space-between;
 }
-
-/* section 03 */
-.section-3{
+.main-one-p3{
     display: flex;
-    padding: 15px 10px;
+    padding: 48px;
     justify-content: space-between;
 }
-
-.btn3{
-    width: 100px;
-        height: 25px;
-
-}
-/* section-4 */
-.section-4{
+.main-one-p4{
     display: flex;
-    padding: 15px 10px;
+    padding: 48px;
     justify-content: space-between;
-}
-p{
-    font-size: large;
-}
-.btn4{
-    width: 100px;
-        height: 25px;
 }
 
 /* main-two */
+
 .main-two{
-    height: 800px;
-    width: 1100px;
+    height: 775px;
+    width: 1140px ;
     margin: 80px 97px;
 }
-.sec-01{
-    padding: 20px 50px;
-    justify-content: center;
+.main-two-p1{
     text-align: center;
-    align-items: center;
+    font-size: 20px;
 }
-.sec-01 h1{
-    font-size: 35px;
-}
-.sec-02{
-   align-items: center;
-   justify-content: center;
-   text-align: center;
+.main-two-p2{
+    text-align: center;
 }
 /* main-three */
 .main-three{
-    height: 113px;
-    width: 940px;
-    padding-left: 10px;
-    margin:80px 97px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+    height: 550px;
+    width: 1140px;
+    margin: 80px 97px;
+    
 }
-.main-three h1{
-    font-size:40px;
+.main-three-p1{
+ text-align: center;
+ font-size: 20px;
+}
+.main-three-p2{
+display: flex;
+font-size: 20px;
+}
+.main-three-sub{
+height: 300px;
+width: 360px;
+margin-left: 10px;
+padding: 40px 40px;
+margin-right: 10px;
+background-color: #fff0f5;
+}
+/* button */
+.main-btn{
+    height: 47px;
+    width: 170px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.sub-btn{
+    height: 47px;
+    width: 170px;
+    font-size: 20px;
+    border-style: none;
+    text-decoration: underline;
 }
 /* main-four */
 .main-four{
-    height: 250px;
-    width: 1100px;
-    margin: 98px 97px;
-    display: flex;
-}
-.main-four-sec-1{
-    width: 366px;
-    height: 350px;
-}
-.logo1{
-    width: 56px;
-    height: 56px;
-}
-.main-four-sec-2{
-    width: 366px;
-    height: 350px;
-}
-.main-four-sec-3{
-    width: 366px;
-    height: 310px;
-}
-.btn-main4{
-    border: none;
-    font-size: large;
-    text-decoration: underline;
-}
-/* main-five */
-.main-five{
-    height: 250px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.1)),url(../assets/handshake.jpg);
+    height: 313px;
     width: 1140px;
-    margin: 80px 97px;
-    background:linear-gradient(rgba(0,0,0,0.7),
-    rgba(0,0,0,0.1)), 
-    url(../assets/handshake.jpg);
-    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
+    margin: 80px 97px;
 }
-.main-five-sec-1{
-    color: white;
+.main-four-p1{
     text-align: center;
-    align-items: center;
-    justify-content: center;
-    padding-top: 20px;
+    font-size: 20px;
+    color: white;
+    padding-top: 15px;
 }
-.main-five-sec-2 input{
-    height: 40px;
-    width: 450px;
-   margin: 57px 0px;
-   padding-left: 10px;
-   font-size: 15px;
-   margin-left: 220px;
-   margin-top: 15px;
+.placeholder{
+    text-align: center;
+    height: 57px;
+    width: 548px;
+    font-size: 20px;
+    margin-left: 200px;
+    
 }
 .btn-submit{
-    height: 40px;
-    width: 100px;
+    width: 120px;
+    height: 57px;
     font-size: 20px;
-    padding-left: 0px 20px;
 }
-/* main-six */
-.main-six{
+#about{
+    height: 100px;
+    width: 1140px;
     display: flex;
     justify-content: space-between;
-    height: 100px;
-    width: 1120px;
     margin: 80px 97px;
+    padding:10px;
+}
+.foot-text{
+    font-size: 30px;
+}
+.foot-links{
+   padding-top: 25px;
+   padding-right: 20px;
 }
